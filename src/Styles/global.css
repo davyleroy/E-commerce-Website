@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9; /* Light background for better contrast */
+  color: #333; /* Dark text for readability */
+}
+
+h1,
+h2,
+h3 {
+  color: #171717; /* Consistent heading color */
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+button:hover {
+  background-color: #ff4141; /* Button hover effect */
+  color: white; /* Text color on hover */
+}
+
+input {
+  border: 1px solid #c9c9c9;
+  border-radius: 5px; /* Rounded corners for inputs */
+  padding: 10px; /* Consistent padding */
+  font-size: 16px; /* Consistent font size */
+}
+
+input:focus {
+  border-color: #ff4141; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.container {
+  max-width: 1200px; /* Max width for main content */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+}
